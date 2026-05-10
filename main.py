@@ -41,7 +41,6 @@ CATALOG_BLOCK = "\n".join(
     f"  Job levels: {', '.join(item['job_levels'])}\n"
     f"  Duration: {item['duration_minutes']} min\n"
     f"  Remote: {item['remote_testing']}\n"
-    f"  Description: {item['description']}\n"
     f"  Competencies: {', '.join(item['competencies'])}"
     for item in CATALOG
 )
